@@ -16,6 +16,8 @@
 		748104A92AF1C49E004DE705 /* CandyReviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104A82AF1C49E004DE705 /* CandyReviewAppTests.swift */; };
 		748104B32AF1C49E004DE705 /* CandyReviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104B22AF1C49E004DE705 /* CandyReviewAppUITests.swift */; };
 		748104B52AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104B42AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift */; };
+		748104C22AF449DC004DE705 /* gummiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104C12AF449DC004DE705 /* gummiesViewController.swift */; };
+		748104C42AF449FF004DE705 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104C32AF449FF004DE705 /* aboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		748104AE2AF1C49E004DE705 /* CandyReviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyReviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748104B22AF1C49E004DE705 /* CandyReviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReviewAppUITests.swift; sourceTree = "<group>"; };
 		748104B42AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReviewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		748104C12AF449DC004DE705 /* gummiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gummiesViewController.swift; sourceTree = "<group>"; };
+		748104C32AF449FF004DE705 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				748104932AF1C49C004DE705 /* SceneDelegate.swift */,
 				748104952AF1C49C004DE705 /* ViewController.swift */,
 				748104972AF1C49C004DE705 /* Main.storyboard */,
+				748104C32AF449FF004DE705 /* aboutViewController.swift */,
+				748104C12AF449DC004DE705 /* gummiesViewController.swift */,
 				7481049A2AF1C49E004DE705 /* Assets.xcassets */,
 				7481049C2AF1C49E004DE705 /* LaunchScreen.storyboard */,
 				7481049F2AF1C49E004DE705 /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748104C22AF449DC004DE705 /* gummiesViewController.swift in Sources */,
 				748104962AF1C49C004DE705 /* ViewController.swift in Sources */,
 				748104922AF1C49C004DE705 /* AppDelegate.swift in Sources */,
 				748104942AF1C49C004DE705 /* SceneDelegate.swift in Sources */,
+				748104C42AF449FF004DE705 /* aboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
