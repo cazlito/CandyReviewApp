@@ -1,5 +1,5 @@
 //
-//  moreInfoViewController.swift
+//  secondDetailViewController.swift
 //  CandyReviewApp
 //
 //  Created by Cazandra Rufo on 11/2/23.
@@ -7,15 +7,18 @@
 
 import UIKit
 
-class moreInfoViewController: UIViewController {
-    @IBOutlet weak var candyNameLabel: UILabel!
-    @IBOutlet weak var candyReviewLabel: UILabel!
+class secondDetailViewController: UIViewController {
+
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var imagePass: String?
     
     override func viewDidLoad() {
-        self.candyNameLabel.text = "Swedish Fish"
-        self.candyReviewLabel.text = "Swedish Fish are a timeless classic in the world of candy, and for good reason. These iconic red gummy fish have been delighting taste buds for generations, and their simple yet satisfying flavor is hard to resist."
         super.viewDidLoad()
 
+        if let imageName = imagePass {
+            imageView.image = UIImage(named: imageName)
+        }
         // Do any additional setup after loading the view.
     }
     

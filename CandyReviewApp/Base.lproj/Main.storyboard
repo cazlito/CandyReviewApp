@@ -40,7 +40,7 @@
             </objects>
             <point key="canvasLocation" x="668" y="923"/>
         </scene>
-        <!--Cazandra's Candy Review-->
+        <!--Gummies View Controller-->
         <scene sceneID="E9J-Xp-aFY">
             <objects>
                 <viewController id="99B-Tv-hdV" customClass="gummiesViewController" customModule="CandyReviewApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,6 +76,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xw2-zM-M5M" kind="show" identifier="mySegue" id="rE5-V0-ZhB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -87,7 +90,7 @@
                         <viewLayoutGuide key="safeArea" id="0IT-cp-vHg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Cazandra's Candy Review" id="jno-Pb-U67"/>
+                    <navigationItem key="navigationItem" id="jno-Pb-U67"/>
                     <connections>
                         <outlet property="gummyTableView" destination="MWe-ef-dal" id="ABf-2d-FEj"/>
                     </connections>
@@ -96,7 +99,32 @@
             </objects>
             <point key="canvasLocation" x="566" y="1743"/>
         </scene>
-        <!--Cazandra's Candy Review-->
+        <!--Second Detail View Controller-->
+        <scene sceneID="0nu-Cl-xUP">
+            <objects>
+                <viewController id="Xw2-zM-M5M" customClass="secondDetailViewController" customModule="CandyReviewApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJ5-Wu-d85">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swedishFish" translatesAutoresizingMaskIntoConstraints="NO" id="t3K-2m-STg">
+                                <rect key="frame" x="56" y="282" width="281" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bZk-me-TDX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iS7-rS-nFM"/>
+                    <connections>
+                        <outlet property="imageView" destination="t3K-2m-STg" id="dWz-6Y-6Mh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JR1-bZ-qdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448.0916030534352" y="1742.9577464788733"/>
+        </scene>
+        <!--About View Controller-->
         <scene sceneID="EIe-0Y-dn1">
             <objects>
                 <viewController id="afW-TA-vEb" customClass="aboutViewController" customModule="CandyReviewApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,13 +136,6 @@
                                 <rect key="frame" x="76" y="216" width="240" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYQ-e8-J9A">
-                                <rect key="frame" x="127" y="468" width="139" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsh-Uq-D13">
                                 <rect key="frame" x="62" y="566" width="268" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -122,11 +143,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYQ-e8-J9A">
+                                <rect key="frame" x="77" y="474" width="239" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MEN-ku-q0K"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Cazandra's Candy Review" id="BwJ-OP-i4M"/>
+                    <navigationItem key="navigationItem" id="BwJ-OP-i4M"/>
                     <connections>
                         <outlet property="aboutInfoLabel" destination="nsh-Uq-D13" id="geO-3U-Z8M"/>
                         <outlet property="aboutNameLabel" destination="NYQ-e8-J9A" id="qG3-LT-Bva"/>
@@ -136,7 +164,7 @@
             </objects>
             <point key="canvasLocation" x="507.63358778625951" y="2469.7183098591549"/>
         </scene>
-        <!--Cazandra's Candy Review-->
+        <!--View Controller-->
         <scene sceneID="7BR-N0-c9k">
             <objects>
                 <viewController id="oMk-WV-v3u" customClass="ViewController" customModule="CandyReviewApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -144,22 +172,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6U-fc-x4U">
-                                <rect key="frame" x="89" y="237" width="212" height="45"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Mtw-C2-xNH">
+                                <rect key="frame" x="-28" y="42" width="449" height="934"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6U-fc-x4U">
+                                <rect key="frame" x="59" y="159" width="274" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swedishFIshImage" translatesAutoresizingMaskIntoConstraints="NO" id="pYW-2c-64O">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swedishFish" translatesAutoresizingMaskIntoConstraints="NO" id="pYW-2c-64O">
                                 <rect key="frame" x="76" y="321" width="240" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDF-ST-29J">
                                 <rect key="frame" x="141" y="578" width="111" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Learn More"/>
                                 <connections>
                                     <action selector="homeButton:" destination="oMk-WV-v3u" eventType="touchUpInside" id="eJO-Lb-3Ii"/>
                                     <segue destination="4K1-IT-1BK" kind="show" id="Q4Q-Ca-cef"/>
@@ -169,7 +203,7 @@
                         <viewLayoutGuide key="safeArea" id="oBN-6c-hBo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Cazandra's Candy Review" id="rsr-LJ-bZv"/>
+                    <navigationItem key="navigationItem" id="rsr-LJ-bZv"/>
                     <connections>
                         <outlet property="homeButtonLabel" destination="JDF-ST-29J" id="pyw-Ry-zst"/>
                         <outlet property="homeLabel" destination="B6U-fc-x4U" id="JFL-uG-FaL"/>
@@ -179,21 +213,45 @@
             </objects>
             <point key="canvasLocation" x="667.93893129770993" y="-535.21126760563379"/>
         </scene>
-        <!--View Controller-->
+        <!--More Info View Controller-->
         <scene sceneID="NkS-rr-gLo">
             <objects>
-                <viewController id="4K1-IT-1BK" sceneMemberID="viewController">
+                <viewController id="4K1-IT-1BK" customClass="moreInfoViewController" customModule="CandyReviewApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="doj-Zn-UQC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swedishFish" translatesAutoresizingMaskIntoConstraints="NO" id="mW3-D3-uFW">
+                                <rect key="frame" x="76" y="282" width="240" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-6s-5zc">
+                                <rect key="frame" x="76" y="523" width="240" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWa-a8-e86">
+                                <rect key="frame" x="73" y="142" width="246" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="GF7-Vh-DjD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ssi-31-Nqp"/>
+                    <connections>
+                        <outlet property="candyNameLabel" destination="eWa-a8-e86" id="6dk-8I-e5R"/>
+                        <outlet property="candyReviewLabel" destination="dzg-6s-5zc" id="GJz-Pb-L7b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCj-Kp-8CN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788" y="-520"/>
+            <point key="canvasLocation" x="1785.4961832061067" y="-535.21126760563379"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="G0K-O0-hOt">
@@ -313,15 +371,19 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backgroundImage" width="810" height="1440"/>
         <image name="birthday.cake" catalog="system" width="128" height="115"/>
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="star" catalog="system" width="128" height="116"/>
-        <image name="swedishFIshImage" width="2400" height="2400"/>
+        <image name="swedishFish" width="2400" height="2400"/>
         <image name="userAboutImage" width="3024" height="4032"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
