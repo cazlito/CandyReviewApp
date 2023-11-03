@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var homeLabel: UILabel!
     
     @IBAction func homeButton(_ sender: Any) {
-        
     }
     
     override func viewDidLoad() {

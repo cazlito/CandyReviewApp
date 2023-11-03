@@ -18,6 +18,7 @@
 		748104B52AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104B42AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift */; };
 		748104C22AF449DC004DE705 /* gummiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104C12AF449DC004DE705 /* gummiesViewController.swift */; };
 		748104C42AF449FF004DE705 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104C32AF449FF004DE705 /* aboutViewController.swift */; };
+		748104C62AF4540A004DE705 /* moreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748104C52AF4540A004DE705 /* moreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		748104B42AF1C49E004DE705 /* CandyReviewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReviewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		748104C12AF449DC004DE705 /* gummiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gummiesViewController.swift; sourceTree = "<group>"; };
 		748104C32AF449FF004DE705 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		748104C52AF4540A004DE705 /* moreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				748104932AF1C49C004DE705 /* SceneDelegate.swift */,
 				748104952AF1C49C004DE705 /* ViewController.swift */,
 				748104972AF1C49C004DE705 /* Main.storyboard */,
+				748104C52AF4540A004DE705 /* moreInfoViewController.swift */,
 				748104C32AF449FF004DE705 /* aboutViewController.swift */,
 				748104C12AF449DC004DE705 /* gummiesViewController.swift */,
 				7481049A2AF1C49E004DE705 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				748104C22AF449DC004DE705 /* gummiesViewController.swift in Sources */,
+				748104C62AF4540A004DE705 /* moreInfoViewController.swift in Sources */,
 				748104962AF1C49C004DE705 /* ViewController.swift in Sources */,
 				748104922AF1C49C004DE705 /* AppDelegate.swift in Sources */,
 				748104942AF1C49C004DE705 /* SceneDelegate.swift in Sources */,

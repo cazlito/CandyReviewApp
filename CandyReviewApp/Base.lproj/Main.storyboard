@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQC-jj-0CL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="530.53435114503816" y="1742.9577464788733"/>
+            <point key="canvasLocation" x="566" y="1743"/>
         </scene>
         <!--Cazandra's Candy Review-->
         <scene sceneID="EIe-0Y-dn1">
@@ -162,6 +162,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Learn More"/>
                                 <connections>
                                     <action selector="homeButton:" destination="oMk-WV-v3u" eventType="touchUpInside" id="eJO-Lb-3Ii"/>
+                                    <segue destination="4K1-IT-1BK" kind="show" id="Q4Q-Ca-cef"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -177,6 +178,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqb-Wr-6Gu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="667.93893129770993" y="-535.21126760563379"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NkS-rr-gLo">
+            <objects>
+                <viewController id="4K1-IT-1BK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="doj-Zn-UQC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GF7-Vh-DjD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ssi-31-Nqp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCj-Kp-8CN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="-520"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="G0K-O0-hOt">
