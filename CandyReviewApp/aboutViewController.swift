@@ -12,11 +12,17 @@ class aboutViewController: UIViewController {
     @IBOutlet weak var aboutInfoLabel: UILabel!
     @IBOutlet weak var aboutNameLabel: UILabel!
     
+    @IBOutlet weak var aboutImage: UIImageView!
+    
     override func viewDidLoad() {
+        
+        let userAboutImage = UIImage(named: "userAboutImage")
         
         self.aboutInfoLabel.text = "Hello! My name is Cazandra Rufo and I am a student at UHWO who is a candy connissuer"
         
         self.aboutNameLabel.text = "Candy Reviewer: Cazandra Rufo"
+        
+        self.aboutImage.image = userAboutImage
         
         super.viewDidLoad()
 

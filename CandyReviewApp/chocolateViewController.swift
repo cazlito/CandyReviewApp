@@ -12,7 +12,7 @@ class chocolateViewController: UIViewController, UITableViewDataSource, UITableV
     @IBOutlet weak var chocolateTableView: UITableView!
    
     var myChocolateArray = ["Hershey", "KitKat", "Snickers", "Twix"]
-    var myRatingsArray = ["4.5 stars", "4 stars", "4 stars", "4 stars"]
+    var myRatingsArray = ["⭐⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐", "⭐⭐⭐"]
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

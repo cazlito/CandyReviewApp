@@ -12,7 +12,7 @@ class candyViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var candyTableView: UITableView!
     
     var myCandyArray = ["Jolly Rancher", "Lemon Head", "Life Savers", "Werthers"]
-    var myRatingsArray = ["4.5 stars", "4 stars", "4 stars", "4 stars"]
+    var myRatingsArray = ["⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myCandyArray.count

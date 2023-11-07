@@ -12,7 +12,7 @@ class gummiesViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet weak var gummyTableView: UITableView!
     
     var myGummyArray = ["Haribo", "Trolli", "Swedish Fish", "Sour Patch"]
-    var myRatingsArray = ["5 stars", "4 stars", "4 stars", "3.5 stars"]
+    var myRatingsArray = ["⭐⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐"]
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
